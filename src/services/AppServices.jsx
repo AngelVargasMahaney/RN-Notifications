@@ -1,6 +1,6 @@
 
 import axios from 'axios'
-import { URL_BACKEND, URL_BACKEND2 } from '../environments/environments';
+import { URL_BACKEND, URL_BACKEND2, URL_BACKENDTEMPLATE } from '../environments/environments';
 
 
 export const getAllUsers = async () => {
@@ -29,5 +29,19 @@ export const postLogin = async (email, password) => {
 export const getAllRiskAsociate = async () => {
     const rpta = await axios.get(`${URL_BACKEND2}/app/risk`, {
     });
+    return rpta
+}
+
+
+//SERVICES FOR URL_BACKENDTEMPLATE
+export const loginOfTemplate = async (objLogin) => {
+    const rpta = await axios.post(`${URL_BACKENDTEMPLATE}/login`,
+        JSON.stringify(objLogin),
+        {
+            headers: {
+                "Content-type": "application/json"
+            }
+        }
+    )
     return rpta
 }
