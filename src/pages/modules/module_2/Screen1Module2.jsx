@@ -234,6 +234,7 @@ const Screen1Module2 = () => {
             <Button title="Eliminar Usuario" onPress={() => handleDeleteUsuarios()} />
 
             <Button title="Screen1 - Moduloo2" onPress={() => navigation.navigate('Screen2Module2')} />
+            <Button title="Screen3 - Moduloo2" onPress={() => navigation.navigate('Screen3Module2')} />
 
         </ScrollView>
     )
