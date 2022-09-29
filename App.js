@@ -10,6 +10,7 @@ import LoginPage from './src/pages/Login';
 import { MyStackModule1 } from './src/pages/modules/module_1/MyStackModule1';
 import { MyStackModule2 } from './src/pages/modules/module_2/MyStackModule2';
 import registerNNPushToken from 'native-notify';
+import { MyStackModule3 } from './src/pages/modules/module_3/MyStackModule3';
 
 
 const Stack = createNativeStackNavigator()
@@ -55,6 +56,8 @@ function MyMainStack() {
           component={MyStackModule1} />
         <Stack.Screen name="Module2"
           component={MyStackModule2} />
+        <Stack.Screen name="Module3"
+          component={MyStackModule3} />
       </Stack.Group>
     </Stack.Navigator>
   )

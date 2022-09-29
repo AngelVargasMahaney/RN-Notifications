@@ -41,6 +41,7 @@ const MyMainPage = () => {
             <View style={{ marginTop: 30 }}>
                 <Button title="Moduloo1" onPress={() => navigation.navigate('Module1')} />
                 <Button title="Moduloo2" onPress={() => navigation.navigate('Module2')} />
+                <Button title="Moduloo3" onPress={() => navigation.navigate('Module3')} />
             </View>
         </View>
     )
