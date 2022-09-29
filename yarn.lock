@@ -7105,6 +7105,11 @@ react-native-ratings@^8.1.0:
   dependencies:
     lodash "^4.17.15"
 
+react-native-reconnecting-websocket@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/react-native-reconnecting-websocket/-/react-native-reconnecting-websocket-1.0.3.tgz#7a006107ecfd4c9b9344c0c3149c6cb64ba4c799"
+  integrity sha512-cIEAZROmJnNP9pacPA9WO8pL8wWiaWt5klfUJsZmPTIVoSsgEIledgcdRgLIEYDIv1AMRegUKrBjI1AGtLdMsg==
+
 react-native-safe-area-context@4.2.4:
   version "4.2.4"
   resolved "https://registry.yarnpkg.com/react-native-safe-area-context/-/react-native-safe-area-context-4.2.4.tgz#4df42819759c4d3c74252c8678c2772cfa2271a6"
