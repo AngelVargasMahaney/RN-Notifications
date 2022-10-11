@@ -9,8 +9,9 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import LoginPage from './src/pages/Login';
 import { MyStackModule1 } from './src/pages/modules/module_1/MyStackModule1';
 import { MyStackModule2 } from './src/pages/modules/module_2/MyStackModule2';
-import registerNNPushToken from 'native-notify';
 import { MyStackModule3 } from './src/pages/modules/module_3/MyStackModule3';
+
+import registerNNPushToken from 'native-notify';
 
 
 const Stack = createNativeStackNavigator()
@@ -64,7 +65,7 @@ function MyMainStack() {
 }
 
 export default function App() {
-  registerNNPushToken(3967, 'SbTjXeVrvA7CdDJSAyv7Up')
+  registerNNPushToken(4186, 'KTKh4FLPSogRjuzjdDrwkQ')
   return (
     <NativeBaseProvider>
       <NavigationContainer>

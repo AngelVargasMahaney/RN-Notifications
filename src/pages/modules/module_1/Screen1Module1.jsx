@@ -175,7 +175,7 @@ const Screen1Module1 = () => {
                 lightColor: '#FF231F7C',
             });
         }
-        // console.log(token)
+        console.log(token)
         return token;
     }
     // AQUI SE ACABA

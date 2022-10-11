@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "319126236870",
+    "project_id": "notificationshelper-bc32e",
+    "storage_bucket": "notificationshelper-bc32e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319126236870:android:6e0730042501c7c984b1c7",
+        "android_client_info": {
+          "package_name": "com.avargasm.usoContext"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319126236870-fv9o9jtjks0pscmge4jo7cghfomoth80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq2Z5DNI_lM-_D_Sqhnni0CACcbB_AGZ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319126236870-fv9o9jtjks0pscmge4jo7cghfomoth80.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
